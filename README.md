@@ -27,7 +27,7 @@ const Header = styled.h1`
   font-size: 20px;
 `;
 
-const Button = styled.h1`
+const Button = styled.button`
   color: black;
   border: none;
 `;
@@ -47,7 +47,7 @@ const blackOrTomatoMixin = createMixin`
   color: ${ props => props.tomato ? 'tomato' : 'black' };
 `;
 
-const Button = blackOrTomatoMixin(styled.h1`
+const Button = blackOrTomatoMixin(styled.button`
   border: none;
 `);
 ```
