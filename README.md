@@ -1,4 +1,4 @@
-# styled-mixin
+# styled-mixin [![Build Status](https://travis-ci.org/dimapaloskin/styled-mixin.svg?branch=master)](https://travis-ci.org/dimapaloskin/styled-mixin)
 
 Super simple wrapper for creating styled-components mixins.
 Perhaps more human-readable syntax for overwrite rules
