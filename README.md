@@ -36,6 +36,34 @@ const TomatoHeader = tomatoColorMixin(Header);
 const TomatoButton = tomatoColorMixin(Button);
 ```
 
+### Animations
+
+```js
+import styled, { keyframes } from 'styled-component';
+import createMixin from 'styled-mixin';
+
+const Header = styled.h1`
+  color: black;
+`;
+
+const rotate360Keyframes = keyframes`
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+`;
+
+const rotate = createMixin`
+   animation: ${rotate360Keyframes} 2s linear infinite;
+`;
+
+const Uiiiii = rotate(Header);
+
+```
+
 ### With props
 
 ```js
