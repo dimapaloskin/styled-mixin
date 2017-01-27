@@ -1,6 +1,6 @@
 {
   "name": "styled-mixin",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Simple wrapper for creating styled-components mixins",
   "main": "index.js",
   "scripts": {
