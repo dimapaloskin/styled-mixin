@@ -2,13 +2,17 @@
   "name": "styled-mixin",
   "version": "0.1.2",
   "description": "Simple wrapper for creating styled-components mixins",
-  "main": "lib/index.js",
+  "main": "index.js",
   "scripts": {
-    "build": "babel src/index.js --out-file lib/index.js",
+    "build": "babel src --out-dir lib",
     "test": "ava -v"
   },
   "files": [
-    "lib/index.js"
+    "lib/index.js",
+    "lib/native.js",
+    "lib/wrap.js",
+    "index.js",
+    "native.js"
   ],
   "keywords": [
     "styled-components",
