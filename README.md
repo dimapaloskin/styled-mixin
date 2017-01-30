@@ -36,6 +36,12 @@ const TomatoHeader = tomatoColorMixin(Header);
 const TomatoButton = tomatoColorMixin(Button);
 ```
 
+Use 
+```js
+import styled from 'styled-component/native';
+``` 
+if you need react-native mode.
+
 ### Animations
 
 ```js
