@@ -38,7 +38,7 @@ const TomatoButton = tomatoColorMixin(Button);
 
 Use 
 ```js
-import styled from 'styled-component/native';
+import createMixin from 'styled-mixin/native';
 ``` 
 if you need react-native mode.
 
