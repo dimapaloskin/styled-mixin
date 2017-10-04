@@ -1,3 +1,6 @@
+# STOP. 
+## just read new steled-components docs now ;)
+
 # styled-mixin [![Build Status](https://travis-ci.org/dimapaloskin/styled-mixin.svg?branch=master)](https://travis-ci.org/dimapaloskin/styled-mixin)
 
 Super simple wrapper for creating styled-components mixins.
